@@ -15,41 +15,73 @@ Program Structure :
 Global variables:
 
 initial_ar – start state
+
 goal_ar – goal state
 
 Local Variables:
 
 state – current state
+
 parent – parent node
+
 move – shifting spaces either left,right,up or down
+
 depth – depth of the node
+
 step_cost – cost of the step taken
+
 path_cost – actual cost of path g(n)
+
 hcost – cost from current node to goal node also called h(n) blank_space – empty space
+
 val_left – value of the left tile
+
 new_state – new state of the tile
+
 val_right – value of the left tile
+
 val_down – value of the left tile
+
 val_up – value of the left tile
+
 goal_state – final state
+
 heuristicFunct – heuristic function
+
 cost – to remove 0's current position
+
 curr – current state
+
 i, j – loop variables
+
 stateTrack – tracking of the state
+
 moveTrack – tracking of the movement
+
 depthTrack – tracking of the depth
+
 count – counts the steps
+
 start – counts the time
+
 fringe – unvisited nodes
+
 fringe_nodes_removed – number of nodes removed from the fringe fringe_maxLeng – maximum number of nodes
+
 depth_fringe – fringe of node depth
+
 path_cost_fringe – fringe of path cost
+
 visited – visited states
+
 curr_node – current node
+
 curr_depth – current depth
+
 curr_path_cost – current path cost
+
 total_cost – total cost f(x)
+
 path_cost – path cost g(x)
 
 Functions :
